@@ -2,6 +2,10 @@
 
 This is a really simple package built for parsing EBCDIC "Zoned Decimal" numbers.
 
+## Installation
+
+    npm i --save ebcdic-parser
+
 ## Usage
 
 ```typescript
