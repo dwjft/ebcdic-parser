@@ -19,13 +19,13 @@
     "noUnusedLocals": true,
     "inlineSources": true,
     "inlineSourceMap": true,
-    "outDir": "build"
+    "declaration": true,
+    "outDir": "dist"
   },
   "include": [
     "src/**/*",
   ],
   "exclude": [
-    "build",
     "dist",
     "node_modules",
     "types",

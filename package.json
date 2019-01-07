@@ -1,7 +1,7 @@
 {
-  "name": "base-ts-node-project",
+  "name": "ebcdic-parser",
   "version": "1.0.0",
-  "description": "base typescript node configs for starting development",
+  "description": "basic ebcdic number parser",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -9,22 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dwjft/base-ts-node-project.git"
+    "url": "git+https://github.com/dwjft/ebcdic-parser.git"
   },
   "keywords": [
-    "typescript",
-    "node",
-    "config",
-    "base",
-    "skeleton",
-    "boilerplate"
+    "ebcdic",
+    "parser"
   ],
   "author": "Danny Tracey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dwjft/base-ts-node-project/issues"
+    "url": "https://github.com/dwjft/ebcdic-parser/issues"
   },
-  "homepage": "https://github.com/dwjft/base-ts-node-project#readme",
+  "homepage": "https://github.com/dwjft/ebcdic-parser#readme",
   "devDependencies": {
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.18",
