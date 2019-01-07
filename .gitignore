@@ -1,3 +1,7 @@
+.DS_Store
+.ignore
+build
+
 # Logs
 logs
 *.log

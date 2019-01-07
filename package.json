@@ -1,0 +1,42 @@
+{
+  "name": "base-ts-node-project",
+  "version": "1.0.0",
+  "description": "base typescript node configs for starting development",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "_mocha -b -r ts-node/register -r tsconfig-paths/register -r should -s 0 -t 10000 \"src/**/*.test.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwjft/base-ts-node-project.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "config",
+    "base",
+    "skeleton",
+    "boilerplate"
+  ],
+  "author": "Danny Tracey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwjft/base-ts-node-project/issues"
+  },
+  "homepage": "https://github.com/dwjft/base-ts-node-project#readme",
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.18",
+    "@types/should": "^13.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "should": "^13.2.3",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.7.0",
+    "tslint": "^5.12.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.2",
+    "typescript-eslint-parser": "^21.0.2"
+  }
+}
