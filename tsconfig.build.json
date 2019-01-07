@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "paths": {
+      "s/*": ["."]
+    },
+    "types": [
+      "node",
+      "mocha",
+      "should"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "lib": ["es2018"],
+    "target": "es2018",
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "dist",
+    "node_modules",
+    "types",
+    "config",
+  ]
+}

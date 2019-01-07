@@ -4,7 +4,7 @@
   "description": "basic ebcdic number parser",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.build.json",
     "test": "_mocha -b -r ts-node/register -r tsconfig-paths/register -r should -s 0 -t 10000 \"src/**/*.test.ts\""
   },
   "repository": {
